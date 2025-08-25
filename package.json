@@ -1,0 +1,25 @@
+{
+  "name": "google-drive-test",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "msw": "^2.6.0",
+    "ts-node": "10.9.1"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "googleapis": "^105.0.0",
+    "pg": "^8.4.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.3.20",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  }
+}
